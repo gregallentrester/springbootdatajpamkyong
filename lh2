@@ -1,0 +1,10 @@
+#!/bin/bash -p
+
+kbyport 8080
+kbyport 8082
+
+cd ~/stage/JPA-ish/spring-data-jpa/h2/bin/
+
+java -jar h2-2.1.214.jar &
+
+cd -
